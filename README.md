@@ -1,20 +1,30 @@
-# Freiberuflicher Software-Entwickler
-# Viktor Hildebrand
+# Freelancer Viktor Hildebrand
+## Persönliche Daten
+   **Name:** Viktor Hildebrand  
+   **Adresse:** Struthweg 16, 57578 Elkenroth  
+   **Geburtsdatum:** 13.09.1984  
+   **Tel:** +49 171 / 6015233  
+   **E-Mail:** viktor.hildebrand@protonmail.com  
 
 ## Fachliche Kenntnisse
-* **Programmiersprachen:** `C` `MISRA-C:2012` `Python` `Java` `C++` `C#`
-* **Microcontroller:** `Microchip` `Renesas` `NXP` `STM` `ARM-basierte-Controller`
-* **Bussysteme:** `CAN` `LIN` `USB` `Ethernet` `UART` `SPI` `I²C` `1Wire`
+* **Programmiersprachen:** `C` `MISRA-C:2012` `C++` `Python` `Java` `C#`
+* **Microcontroller:** `Microchip` `Renesas` `NXP` `STM` `TI` `ARM-basierte-Controller`
+* **Bussysteme:** `CAN` `LIN` `USB` `Ethernet` `UART` `SPI` `I²C` `1-Wire`
 * **Plattformen:** `Embedded Systeme` `Maschinensteuerung` `Windows` `Linux`
-* **Test:** `VectorCAST` `PC-Lint` `CppCheck` `Python Unittest` `GoogleTest`
-* **Architektur:** `Rhapsody`
+* **Test:** `SonarQube` `VectorCAST` `PC-Lint` `CppCheck` `Python Unittest` `GoogleTest`
+* **Architektur:** `Rhapsody` `Cameo`
 * **Versionskontrolle:** `Git` `SVN`
 * **Verwaltung:** `Jira` `Polarion` `Trac`
-* **CI:** `GitLab` `CMake` `Jenkins`
-* **Dokumentation** `Doxygen` `MS Office` `LibreOffice` `Latex`
+* **CI:** `GitLab` `CMake` `Conda` `Jenkins`
+* **Dokumentation** `Doxygen` `MkDocs` `Latex`
+* **Office** `MS Office` `LibreOffice`
 
-## Weitere Kenntnisse
-`Deutsch` `verhandlungssicheres Englisch` `agile Entwicklung` `Rapid Prototyping` `Oszilloskop`
+## Sprachen
+* **`Deutsch`** 
+* **`verhandlungssicheres Englisch`**
+
+## Zulassungen
+* **`Ü2-Sicherheitsüberprüfung`**
 
 ## Ausbildung
 * **2001-08 – 2003-07:** Berufsbildende Schule Betzdorf/Kirchen
@@ -33,13 +43,14 @@
 * **2009-09 – 2009-11:** Renesas Technology Europe GmbH als Diplomant
 * **2010-02 – 2016-07:** ROTH + WEBER GmbH in Niederdreisbach als Software-Entwickler
 * **2016-08 – 2019-12:** Thomas Magnete GmbH in Herdorf als Software-Entwickler
-* **2020-01 - 2020-10:** Rohde & Schwarz SIT in Stuttgart als Freiberuflicher Software-Entwickler
-* **Seit 2020-10:**      ROTH + WEBER GmbH in Niederdreisbach als Freiberuflicher Software-Entwickler
-* **Seit 2021-03:**      Miele & Cie in Gütersloh als Freiberuflicher Software-Entwickler
+* **2020-01 - 2020-10:** Rohde & Schwarz SIT GmbH in Stuttgart als Freiberuflicher Software-Entwickler
+* **2020-10 - 2022-05:** ROTH + WEBER GmbH in Niederdreisbach als Freiberuflicher Software-Entwickler
+* **2021-03 - 2024-06:** Miele & Cie. KG in Gütersloh als Freiberuflicher Software-Entwickler
+* **2022-12 - 2023-10:** Thomas Magnete GmbH in Herdorf als Freiberuflicher Software-Entwickler
 
 ## Weiterbildung
 * **2007-09:** Xilinx Professional VHDL
-* **2016-09:** Functional Safety ISO26262 | System, Hardware & Software
+* **2016-09:** Functional Safety ISO26262 - System, Hardware & Software
 * **2917-08:** Polarion Basic Training
 * **2018-03:** VectorCAST C/C++ QuickStart Trainig
 * **2018-08:** Willert UML Start-Up Training
@@ -50,12 +61,93 @@
 
 ## Projekte
 
+### 2022-12 - 2023-10 | Thomas Magnete
+Entwicklung einer Embedded Software für einen Ventil-Prototypen mit LIN-Interface.
+
+#### Aufgaben:
+* Erweiterung der Software-Architektur in Rhapsody
+* Implementierung der Ventilsteuerung als State-Machine in Rhapsody
+* Implementierung eines LIN-Stacks für die Kommunikation mit PLIN-LDF-Testumgebung
+* Integration & Inbetriebnahme des Built-in-Bootstrap-Loaders
+
+#### Hardware:
+* MCU: Infineon TLE9867
+
+#### Tools:
+* IDE: Keil µVision5
+* Projektverwaltung: GitLab
+* Architecture: Rhapsody Architect
+* CAN-Adapter: PEAK PLIN-USB
+
+***************************************************
+
+### 2022-09 - 2024-06 | Miele
+Entwicklung einer Embedded Software für eine Bluetooth-Fernbedienung zur Steuerung eines Staubsaugers.
+
+#### Aufgaben:
+* Erstellung der Software-Architektur in Cameo
+* Implementierung neuer Software-Komponenten in C für die Grundfunktionen der Fernbedienung
+* Implementierung neuer Software-Komponenten in C für Bluetooth-Datenübertragung
+* Anbindung an ein externes Bluetooth-Kommunikationsmodul und Test der Datenübertragung
+* Überwachung der Software-Qualität mit SonarQube
+
+#### Hardware:
+* MCU: TI CC2651R3SIPA
+
+#### Tools:
+* IDE: Code Composer Studio
+* Projektverwaltung: GitLab
+* Architecture: Cameo Systems Modeler
+* Statische Code-Analyse: SonarQube
+
+***************************************************
+
+### 2021-03 - 2024-06 | Miele
+Entwicklung einer Embedded Software für einen Staubsauger mit Cloud-Anbindung & App-Bedienung.
+
+#### Aufgaben:
+* Erstellung der Software-Architektur in Cameo
+* Integration von Plattform-Software-Komponenten, u.a. Runtime-Environment mit EmbOS-Betriebssystem
+* Integration & Test eines externen Kommunikationsmoduls mit WLAN & Bluetooth-Funktionalität
+* Implementierung neuer Software-Komponenten in C++ für die Staubsauger-Steuerung
+* Implementierung neuer Software-Komponenten in C++ für die Cloud-Anbindung
+* Überwachung der Software-Qualität mit SonarQube
+
+#### Hardware:
+* MCU: STM32L496 / STM32U575
+
+#### Tools:
+* IDE: Visual Studio
+* Projektverwaltung: GitLab
+* Architecture: Cameo Systems Modeler
+* Statische Code-Analyse: SonarQube
+
+***************************************************
+
+### 2020-10 - 2022-05 | ROTH + WEBER
+Entwicklung einer Embedded Software für ein Farbdruckersystem und Einführung einer Unit-Testumgebung für die Windows-Entwicklungsumgebung und CI-Build-Umgebung.
+
+#### Aufgaben:
+* Implementierung neuer Software-Komponenten für das Farbdruckersystem in C
+* Implementierung einer Unit-Testumgebung basierend auf CMake & GoogleTest
+* Integration der Tests in das GitLab CI
+
+#### Hardware:
+* MCU: NXP LPC178x
+
+#### Tools:
+* IDE: LPCXpresso IDE
+* Projektverwaltung: GitLab
+* Test-Framework: GoogleTest
+
+***************************************************
+
 ### 2020-01 - 2020-10 | Rohde & Schwarz SIT
 Test einer Embedded Kryptomodul-Software eines Funkgerätes auf Integrationsebene und Weiterentwicklung der vorhandenen Testumgebung.
 
 #### Aufgaben:
 * Spezifikation von Test-Cases auf Integrationsebene in Python und XML
-* Entwicklung eines Test-Adapters auf Basis von Apache Thrift in C++
+* Implementierung eines Test-Adapters auf Basis von Apache Thrift in C++
 * Portierung & Integration einer vorhandenen C-Bibliothek in die Python-Testumgebung
 * Generierung von Test-Reports in Latex
 * Integration der Tests in das GitLab CI
@@ -65,8 +157,8 @@ Test einer Embedded Kryptomodul-Software eines Funkgerätes auf Integrationseben
 * OS: Embedded Linux
 
 #### Tools:
-* IDE: **Eclipse**
-* Projektverwaltung: **GitLab** & **Jira**
+* IDE: Eclipse
+* Projektverwaltung: GitLab & Jira
 * Test-Framework: Python Unittest
 * Test-Report: Latex
 
@@ -84,18 +176,18 @@ Entwicklung einer Embedded Software mit CAN-Interface zur Ansteuerung eines Schr
 * Betreuung eines externen Dienstleisters bei der Entwicklung eines 2-stufigen UDS-Bootloaders
 
 #### Hardware:
-* MCU: **Microchip dsPIC33CH128MP505**
-* Driver: **TI DRV8703**
+* MCU: Microchip dsPIC33CH128MP505
+* Driver: TI DRV8703
 
 #### Tools:
-* IDE: **MPLAB X** + **PICkit 3**
-* Requirements: **Polarion ALM**
-* Unit-Tests: **VectorCAST**
-* Configuration: **EB tresos**
-* Architecture: **Rhapsody Architect**
-* UDS-Flasher: **Vector vFlash**
-* CAN-Adapter: **PEAK PCAN-USB**
-* CAN-Adapter: **Vector VN1610**
+* IDE: MPLAB X + PICkit 3
+* Requirements: Polarion ALM
+* Unit-Tests: VectorCAST
+* Configuration: EB tresos
+* Architecture: Rhapsody Architect
+* UDS-Flasher: Vector vFlash
+* CAN-Adapter: PEAK PCAN-USB
+* CAN-Adapter: Vector VN1610
 
 ***************************************************
 
@@ -105,14 +197,14 @@ Entwicklung einer Embedded Software für ein UART-Multiplexer-System.
 #### Aufgaben:
 * Erstellung der Software-Architektur
 * Implementierung eines UART-Moduls für die Kommunikation mit einem SPS-Steuergerät
-* Implementierung eines SPI-Moduls für den Zugriff auf 5 angeschlossene MAX14830-ICs
+* Implementierung eines SPI-Moduls für den Zugriff auf 5 angeschlossenen MAX14830-ICs
 
 #### Hardware:
-* MCU: **Atmel ATxmega32E5**
-* Peripherals: **Maxim MAX14830**
+* MCU: Atmel ATxmega32E5
+* Peripherals: Maxim MAX14830
 
 #### Tools:
-* IDE: **Atmel Studio** + **Atmel-ICE**
+* IDE: Atmel Studio + Atmel-ICE
 
 ***************************************************
 
@@ -128,12 +220,12 @@ Entwicklung einer universellen Build-Toolchain für Embedded-Software-Projekte i
 * Ausführbarkeit auf einem Build-Server & am Entwickler-PC
 
 #### Tools:
-* Formatierung: **LLVM Clang**
-* Statische Code-Analyse: **PC-Lint** & **CppCheck**
-* Unit-Tests: **VectorCAST**
-* Projektdokumentation: **Doxygen**
-* Standard-Compiler: **MinGW**
-* Build-Umgebung: **Jenkins**
+* Formatierung: LLVM Clang
+* Statische Code-Analyse: PC-Lint & CppCheck
+* Unit-Tests: VectorCAST
+* Projektdokumentation: Doxygen
+* Standard-Compiler: MinGW
+* Build-Umgebung: Jenkins
 
 ***************************************************
 
@@ -151,13 +243,13 @@ Entwicklung einer Embedded Software in MISRA-C:2012 mit LIN-Interface zur Ansteu
 * Implementierung von Sicherheitsfunktionen
 
 #### Hardware:
-* MCU: **Microchip dsPIC33EV128GM004**
-* Driver: **TI DRV8305**
+* MCU: Microchip dsPIC33EV128GM004
+* Driver: TI DRV8305
 
 #### Tools:
-* IDE: **MPLAB X** + **PICkit 3**
-* Unit-Tests: **VectorCAST**
-* LIN-Adapter: **PEAK PCAN-USB Pro FD**
+* IDE: MPLAB X + PICkit 3
+* Unit-Tests: VectorCAST
+* LIN-Adapter: PEAK PCAN-USB Pro FD
 
 ***************************************************
 
@@ -173,14 +265,14 @@ Entwicklung einer Embedded Software für ein Faltmaschinensystem.
 * Implementierung der Faltablaufsteuerung
 
 #### Hardware:
-* MCU: **Renesas RX600**
+* MCU: Renesas RX600
 
 #### Tools:
-* IDE: **Renesas e²Studio** + **J-Link**
+* IDE: Renesas e²Studio + J-Link
 
 ***************************************************
 
-### 2014 | ROWE + WEBER
+### 2014 | ROTH + WEBER
 Entwicklung einer Faltmaschinen-Simulationssoftware mit Benutzeroberfläche in Java.
 
 #### Aufgaben:
@@ -190,21 +282,21 @@ Entwicklung einer Faltmaschinen-Simulationssoftware mit Benutzeroberfläche in J
 ***************************************************
 
 ### 2013 | ROTH + WEBER
-Portierung der Embedded Software eines Druckersystems auf eine neue Hardware-Plattforn, Refaktorisierung der Software-Architektur und Entwicklung neuer Software-Module.
+Portierung der Embedded Software eines Druckersystems auf eine neue Hardware-Plattform, Refaktorisierung der Software-Architektur und Entwicklung neuer Software-Module.
 
 #### Aufgaben:
 * Entwicklung der neuen Software-Architektur
-* Modularisieung vorhandener, wiederverwendbarer Software-Komponenten
+* Modularisierung  vorhandener, wiederverwendbarer Software-Komponenten
 * Implementierung von neuen Software-Modulen für CAN, I²C, UART & 1Wire Kommunikation
 * Integration des vorhandenen Bootloaders
 * Implementierung einer Schrittmotoransteuerung
 * Integration und Optimierung der Druckablaufsteuerung
 
 #### Hardware:
-* MCU: **Renesas RX600**
+* MCU: Renesas RX600
 
 #### Tools:
-* IDE: **Renesas e²Studio** + **J-Link**
+* IDE: Renesas e²Studio + J-Link
 
 ***************************************************
 
@@ -224,7 +316,7 @@ Weiterentwicklung eines vorhandenen Scannersystems inklusive Portierung der Embe
 * Erweiterung des USB-Treibers für die Kommunikation mit der angepassten Embedded Software
 
 #### Hardware
-* MCU: **Cypress EZ-USB FX3**
+* MCU: Cypress EZ-USB FX3
 
 ***************************************************
 
@@ -248,7 +340,7 @@ Entwicklung einer Embedded Software für ein neues Scannersystem.
 * Implementierung der Scan-Ablaufsteuerung
 
 #### Hardware:
-* MCU: **Renesas M16C**
+* MCU: Renesas M16C
 
 ***************************************************
 
@@ -261,18 +353,18 @@ Entwicklung eines User-Mode-Treibers für die Kommunikation eines Scannersystems
 * Implementierung eines socketbasierten Kommunikations-Dienstes in Python mit XMLRPC-Interface, der den Zugriff auf die Treiber-DLL via ctypes realisiert.
 
 #### Hardware:
-* MCU: **Cypress EZ-USB FX2**
+* MCU: Cypress EZ-USB FX2
 
 #### Tools:
-* Compiler: **MinGw**
+* Compiler: MinGw
 
 ***************************************************
 
 ### 2010 | ROTH + WEBER
-Entwicklung und einer Java-Applikation mit Benutzeroberfläche für die Konfiguration und Verwaltung eines Scannersystem.
+Entwicklung und einer Java-Applikation mit Benutzeroberfläche für die Konfiguration und Verwaltung eines Scannersystems.
 
 #### Aufgaben:
-* Implemertierung einer Benutzerverwaltung
+* Implementierung einer Benutzerverwaltung
 * Implementierung einer Parameterverwaltung
 * Implementierung einer Firmware-Update-Funktion
 * Implementierung einer XMLRPC-basierten Kommunikation mit den Scannersystem
@@ -287,6 +379,8 @@ Betreuung und Weiterentwicklung einer Embedded Software für ein Faltmaschinensy
 * Bugfixing
 
 #### Hardware:
-* MCU: **Philips 80C592**
+* MCU: Philips 80C592
 
 ***************************************************
+
+Elkenroth, 16.02.2024
