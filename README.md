@@ -4,20 +4,21 @@
    **Adresse:** Struthweg 16, 57578 Elkenroth  
    **Geburtsdatum:** 13.09.1984  
    **Tel:** +49 171 / 6015233  
-   **E-Mail:** viktor.hildebrand@protonmail.com  
+   **E-Mail:** [viktor@hildebrand.software](mailto:viktor@hildebrand.software)  
+   **Website:** [hildebrand.software](https://hildebrand.software)
 
 ## Fachliche Kenntnisse
 * **Programmiersprachen:** `C` `MISRA-C:2012` `C++` `Python` `Java` `C#`
 * **Microcontroller:** `Microchip` `Renesas` `NXP` `STM` `TI` `ARM-basierte-Controller`
 * **Bussysteme:** `CAN` `LIN` `USB` `Ethernet` `UART` `SPI` `I²C` `1-Wire`
-* **Plattformen:** `Embedded Systeme` `Maschinensteuerung` `Windows` `Linux`
-* **Test:** `SonarQube` `VectorCAST` `PC-Lint` `CppCheck` `Python Unittest` `GoogleTest`
+* **Plattformen:** `Embedded-Systeme` `Maschinensteuerung` `Windows` `Linux`
+* **Test:** `SonarQube` `VectorCAST` `PC-Lint` `CppCheck` `Python-Unittest` `GoogleTest`
 * **Architektur:** `Rhapsody` `Cameo`
 * **Versionskontrolle:** `Git` `SVN`
-* **Verwaltung:** `Jira` `Polarion` `Trac`
-* **CI:** `GitLab` `CMake` `Conda` `Jenkins`
-* **Dokumentation** `Doxygen` `MkDocs` `Latex`
-* **Office** `MS Office` `LibreOffice`
+* **Verwaltung:** `Jira` `Polarion`
+* **CI:** `GitLab` `CMake` `Conda`
+* **Dokumentation:** `Doxygen` `MkDocs` `Latex`
+* **Office:** `MS Office` `LibreOffice`
 
 ## Sprachen
 * **`Deutsch`** 
@@ -41,12 +42,12 @@
 ## Werdegang
 * **2006-01 – 2010-01:** ROTH + WEBER GmbH in Niederdreisbach als Werkstudent
 * **2009-09 – 2009-11:** Renesas Technology Europe GmbH als Diplomant
-* **2010-02 – 2016-07:** ROTH + WEBER GmbH in Niederdreisbach als Software-Entwickler
-* **2016-08 – 2019-12:** Thomas Magnete GmbH in Herdorf als Software-Entwickler
-* **2020-01 - 2020-10:** Rohde & Schwarz SIT GmbH in Stuttgart als Freiberuflicher Software-Entwickler
-* **2020-10 - 2022-05:** ROTH + WEBER GmbH in Niederdreisbach als Freiberuflicher Software-Entwickler
-* **2021-03 - 2024-06:** Miele & Cie. KG in Gütersloh als Freiberuflicher Software-Entwickler
-* **2022-12 - 2023-10:** Thomas Magnete GmbH in Herdorf als Freiberuflicher Software-Entwickler
+* **2010-02 – 2016-07:** ROTH + WEBER GmbH in Niederdreisbach als Softwareentwickler
+* **2016-08 – 2019-12:** Thomas Magnete GmbH in Herdorf als Softwareentwickler
+* **2020-01 - 2020-10:** Rohde & Schwarz SIT GmbH in Stuttgart als Freiberuflicher Softwareentwickler
+* **2020-10 - 2022-05:** ROTH + WEBER GmbH in Niederdreisbach als Freiberuflicher Softwareentwickler
+* **2021-03 - 2024-06:** Miele & Cie. KG in Gütersloh als Freiberuflicher Softwareentwickler
+* **2022-12 - 2023-10:** Thomas Magnete GmbH in Herdorf als Freiberuflicher Softwareentwickler
 
 ## Weiterbildung
 * **2007-09:** Xilinx Professional VHDL
@@ -62,7 +63,7 @@
 ## Projekte
 
 ### 2022-12 - 2023-10 | Thomas Magnete
-Entwicklung einer Embedded Software für einen Ventil-Prototypen mit LIN-Interface.
+Entwicklung einer Embedded-Software für einen Ventil-Prototypen mit LIN-Interface.
 
 #### Aufgaben:
 * Erweiterung der Software-Architektur in Rhapsody
@@ -82,7 +83,7 @@ Entwicklung einer Embedded Software für einen Ventil-Prototypen mit LIN-Interfa
 ***************************************************
 
 ### 2022-09 - 2024-06 | Miele
-Entwicklung einer Embedded Software für eine Bluetooth-Fernbedienung zur Steuerung eines Staubsaugers.
+Entwicklung einer Embedded-Software für eine Bluetooth-Fernbedienung zur Steuerung eines Staubsaugers.
 
 #### Aufgaben:
 * Erstellung der Software-Architektur in Cameo
@@ -103,7 +104,7 @@ Entwicklung einer Embedded Software für eine Bluetooth-Fernbedienung zur Steuer
 ***************************************************
 
 ### 2021-03 - 2024-06 | Miele
-Entwicklung einer Embedded Software für einen Staubsauger mit Cloud-Anbindung & App-Bedienung.
+Entwicklung einer Embedded-Software für einen Staubsauger mit Cloud-Anbindung & App-Bedienung.
 
 #### Aufgaben:
 * Erstellung der Software-Architektur in Cameo
@@ -125,7 +126,7 @@ Entwicklung einer Embedded Software für einen Staubsauger mit Cloud-Anbindung &
 ***************************************************
 
 ### 2020-10 - 2022-05 | ROTH + WEBER
-Entwicklung einer Embedded Software für ein Farbdruckersystem und Einführung einer Unit-Testumgebung für die Windows-Entwicklungsumgebung und CI-Build-Umgebung.
+Entwicklung einer Embedded-Software für ein Farbdruckersystem und Einführung einer Unit-Testumgebung für die Windows-Entwicklungsumgebung und CI-Build-Umgebung.
 
 #### Aufgaben:
 * Implementierung neuer Software-Komponenten für das Farbdruckersystem in C
@@ -159,13 +160,13 @@ Test einer Embedded Kryptomodul-Software eines Funkgerätes auf Integrationseben
 #### Tools:
 * IDE: Eclipse
 * Projektverwaltung: GitLab & Jira
-* Test-Framework: Python Unittest
+* Test-Framework: Python-Unittest
 * Test-Report: Latex
 
 ***************************************************
 
 ### 2018-07 - 2019-12 | Thomas Magnete
-Entwicklung einer Embedded Software mit CAN-Interface zur Ansteuerung eines Schrittmotors.
+Entwicklung einer Embedded-Software mit CAN-Interface zur Ansteuerung eines Schrittmotors.
 
 #### Aufgaben:
 * Betrachtung der funktionalen Sicherheit nach ISO26262
@@ -192,7 +193,7 @@ Entwicklung einer Embedded Software mit CAN-Interface zur Ansteuerung eines Schr
 ***************************************************
 
 ### 2017-02 - 2017-04 | Thomas Magnete
-Entwicklung einer Embedded Software für ein UART-Multiplexer-System.
+Entwicklung einer Embedded-Software für ein UART-Multiplexer-System.
 
 #### Aufgaben:
 * Erstellung der Software-Architektur
@@ -216,7 +217,7 @@ Entwicklung einer universellen Build-Toolchain für Embedded-Software-Projekte i
 * Statische Code-Analyse und MISRA-C:2012
 * Automatisierte Ausführung von Unit-Tests
 * Generierung der Projektdokumentation
-* Kompilierung der Embedded Software
+* Kompilierung der Embedded-Software
 * Ausführbarkeit auf einem Build-Server & am Entwickler-PC
 
 #### Tools:
@@ -230,7 +231,7 @@ Entwicklung einer universellen Build-Toolchain für Embedded-Software-Projekte i
 ***************************************************
 
 ### 2016-08 - 2018-06 | Thomas Magnete
-Entwicklung einer Embedded Software in MISRA-C:2012 mit LIN-Interface zur Ansteuerung eines BLDC-Motors. Zusätzliche Entwicklung für den Systemtest: Eine Testumgebung in Python für das Embedded System mit zusätzlicher UART-Kommunikation für Event-Logging und u.a. Fault-Injection-Tests.
+Entwicklung einer Embedded-Software in MISRA-C:2012 mit LIN-Interface zur Ansteuerung eines BLDC-Motors. Zusätzliche Entwicklung für den Systemtest: Eine Testumgebung in Python für das Embedded System mit zusätzlicher UART-Kommunikation für Event-Logging und u.a. Fault-Injection-Tests.
 
 #### Aufgaben:
 * Betrachtung der funktionalen Sicherheit nach ISO26262 auf System und Software-Ebene
@@ -254,7 +255,7 @@ Entwicklung einer Embedded Software in MISRA-C:2012 mit LIN-Interface zur Ansteu
 ***************************************************
 
 ### 2015 | ROTH + WEBER
-Entwicklung einer Embedded Software für ein Faltmaschinensystem.
+Entwicklung einer Embedded-Software für ein Faltmaschinensystem.
 
 #### Aufgaben:
 * Erstellung der Software-Architektur
@@ -282,7 +283,7 @@ Entwicklung einer Faltmaschinen-Simulationssoftware mit Benutzeroberfläche in J
 ***************************************************
 
 ### 2013 | ROTH + WEBER
-Portierung der Embedded Software eines Druckersystems auf eine neue Hardware-Plattform, Refaktorisierung der Software-Architektur und Entwicklung neuer Software-Module.
+Portierung der Embedded-Software eines Druckersystems auf eine neue Hardware-Plattform, Refaktorisierung der Software-Architektur und Entwicklung neuer Software-Module.
 
 #### Aufgaben:
 * Entwicklung der neuen Software-Architektur
@@ -309,11 +310,11 @@ Weiterentwicklung einer Software für die Generierung von Typenschildern für ve
 ***************************************************
 
 ### 2013 | ROTH + WEBER
-Weiterentwicklung eines vorhandenen Scannersystems inklusive Portierung der Embedded Software und Anpassung des Windows-USB-Treibers.
+Weiterentwicklung eines vorhandenen Scannersystems inklusive Portierung der Embedded-Software und Anpassung des Windows-USB-Treibers.
 
 #### Aufgaben:
-* Adaptierung der Embedded Software an die neue Hardware-Plattform
-* Erweiterung des USB-Treibers für die Kommunikation mit der angepassten Embedded Software
+* Adaptierung der Embedded-Software an die neue Hardware-Plattform
+* Erweiterung des USB-Treibers für die Kommunikation mit der angepassten Embedded-Software
 
 #### Hardware
 * MCU: Cypress EZ-USB FX3
@@ -331,7 +332,7 @@ Entwicklung einer Client-Server-basierten Lizenzverwaltung-Software in Python f�
 ***************************************************
 
 ### 2011 | ROTH + WEBER
-Entwicklung einer Embedded Software für ein neues Scannersystem.
+Entwicklung einer Embedded-Software für ein neues Scannersystem.
 
 #### Aufgaben:
 * Entwicklung der Software-Architektur
@@ -372,7 +373,7 @@ Entwicklung und einer Java-Applikation mit Benutzeroberfläche für die Konfigur
 ***************************************************
 
 ### 2010 | ROTH + WEBER
-Betreuung und Weiterentwicklung einer Embedded Software für ein Faltmaschinensystem.
+Betreuung und Weiterentwicklung einer Embedded-Software für ein Faltmaschinensystem.
 
 #### Aufgaben:
 * Implementierung einer Endlosfaltprozedur
@@ -383,4 +384,4 @@ Betreuung und Weiterentwicklung einer Embedded Software für ein Faltmaschinensy
 
 ***************************************************
 
-Elkenroth, 16.02.2024
+Elkenroth, 31.03.2024
